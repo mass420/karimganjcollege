@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karimganj College</title>
+
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,800;1,300;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <!-- college logo -->
+            <a href="./index.html"><img src="./photos/onlinelogomaker-051822-0051-9174-2000-transparent.png" alt="error"></a>
+            <!-- home,about,course,contact -->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <!-- home page intro word -->
+    <div class="text-box">
+        <h1>One of the leading colleges under Assam University</h1>
+        <p>The college welcomes the new generation of students who enter this institution with hearts vibrating with hopes and aspirations. It is the only college in <b>Barak Valley</b> that offer BCA degree course. 
+        <br>Let every student of this institution develop intellectual and moral power in a healthy environment and <br> himself/herself physically, mentally and spiritually.</p>
+        <a href="" class="hero-btn">Visit Us to know More..</a>
+    </div>
+    </section>
+
+    <!-- javaScript for toggle menu -->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
