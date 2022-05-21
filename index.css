@@ -23,7 +23,7 @@ nav{
 }
 /* For logo image */
 nav img{
-    width: 100px;
+    width: 200px;
     
 }
 
@@ -99,7 +99,7 @@ nav .fa{
 }
 /* ......Its for mobile version....... */
 
-@media(max-width:700px){
+ @media(max-width:700px){
     
     .text-box h1{
         font-size: 16px;
@@ -114,6 +114,40 @@ nav .fa{
         font-size: 18px;
         padding: 10px 30px;
     }
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    
+    .nav-links ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: yellowgreen;
+        display: block;
+        margin: auto;
+        transition: 0.3s;
+    }
+    nav img{
+        width: 100px;
+        
+    }
+
+    
+    /*
     .nav-links{
         position:absolute;
         background:rebeccapurple;
@@ -141,6 +175,5 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
-
-   
-}
+ 
+}  */
