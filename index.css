@@ -101,7 +101,7 @@ nav .fa{
 
  @media(max-width:700px){
      html,body{
-         background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./photos/pexels-george-pak-7972555.jpg);
+         background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./photos/pexels-george-pak-7972555.webp);
          background-size: cover;
      }
     
