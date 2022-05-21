@@ -1,0 +1,62 @@
+ /* html,body{
+         background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./photos/pexels-george-pak-7972555.webp);
+         background-size: cover;
+     } */
+
+
+        /*
+    .nav-links{
+        position:absolute;
+        background:rebeccapurple;
+        height: 100vh;
+        width: 200px;
+        top:0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        
+    }
+    .nav-links ul li a{
+        color: black;
+        font-size: 12px;
+    }
+
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+ 
+}  */
+
+<!-- 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,800;1,300;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+ -->
+
+  <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+
+   <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+
+   <!-- javaScript for toggle menu -->
+    <!-- <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script> -->
+
+    
