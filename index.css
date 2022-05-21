@@ -100,6 +100,10 @@ nav .fa{
 /* ......Its for mobile version....... */
 
  @media(max-width:700px){
+     html,body{
+         background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./photos/pexels-george-pak-7972555.jpg);
+         background-size: cover;
+     }
     
     .text-box h1{
         font-size: 16px;
@@ -122,16 +126,16 @@ nav .fa{
     .nav-links ul li{
         list-style: none;
         display: inline-block;
-        padding: 8px 12px;
+        padding: 8px 10px;
         position: relative;
     }
     
     .nav-links ul li a{
         color: #fff;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 9px;
     }
-    
+        
     .nav-links ul li::after{
         content: '';
         width: 0%;
@@ -145,6 +149,7 @@ nav .fa{
         width: 100px;
         
     }
+}
 
     
     /*
